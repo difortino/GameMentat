@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "skill": {
+      "en": "Absorb",
+      "fr": "Absorption"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When this unit is attacked, it ignores all but I of the damage dealt.",
+      "fr": "Lorsque cette unité est attaquée, elle ignore tous les dégâts sauf 1."
+    }
+  },
+  {
+    "id": 2,
+    "skill": {
+      "en": "Agile",
+      "fr": "Agilité"
+    },
+    "type": "Special",
+    "rule": {
+      "en": "This unit rolls dice equal to its Attack and deals the rolled damage to its target.<br/>This unit always uses Agile instead of attacking.",
+      "fr": "Cette unité lance un nombre de dés égal à son Attaque et inflige les dégâts obtenus à sa cible.<br/>Cette unité utilise toujours Agile au lieu d'attaquer."
+    }
+  },
+  {
+    "id": 3,
+    "skill": {
+      "en": "Beastmaster",
+      "fr": "Maître des Bêtes"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "Beasts allied with this unit ignore their Roaming skill.",
+      "fr": "Les Bêtes alliées à cette unité ignorent leur compétence Errance."
+    }
+  },
+  {
+    "id": 4,
+    "skill": {
+      "en": "Blasphemous",
+      "fr": "Blasphématoire"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "Whenever this unit is dealt damage from an elite opponent. that damage is increased by 1.<br/>This unit's highest priority is your hero.",
+      "fr": "Lorsque cette unité subit des dégâts d'un adversaire élite, ces dégâts sont augmentés de 1.<br/>Cette unité a pour priorité maximale votre héros."
+    }
+  },
+  {
+    "id": 5,
+    "skill": {
+      "en": "Combat Lock",
+      "fr": "Verrouillage"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "Opponents that are adjacent to this unit at the start of their turn cannot move during the Movement Step that turn.",
+      "fr": "Les adversaires adjacents à cette unité au début de leur tour ne peuvent pas se déplacer pendant l'étape de Mouvement de ce tour."
+    }
+  },
+  {
+    "id": 6,
+    "skill": {
+      "en": "Confidence",
+      "fr": "Assurance"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit adds [green] to its Attack while outnumbered.",
+      "fr": "Cette unité ajoute [vert] à son Attaque lorsqu'elle est en infériorité numérique."
+    }
+  },
+  {
+    "id": 7,
+    "skill": {
+      "en": "Deflect",
+      "fr": "Déviation"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit cannot be targeted by attacks if it has already been dealt damage from an attack this turn.",
+      "fr": "Cette unité ne peut pas être ciblée par des attaques si elle a déjà subi des dégâts d'une attaque ce tour-ci."
+    }
+  },
+  {
+    "id": 8,
+    "skill": {
+      "en": "Dig In",
+      "fr": "Retranchement"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "If this unit does not move during the Movement Step of its turn, it adds [black] to its Attack that turn.",
+      "fr": "Si cette unité ne se déplace pas pendant l'étape de Mouvement de son tour, elle ajoute [noir] à son Attaque ce tour-ci."
+    }
+  },
+  {
+    "id": 9,
+    "skill": {
+      "en": "Dodge",
+      "fr": "Esquive"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When this unit is attacked by a non-elite unit, the attacker rolls [blue] in place of any [red], [black], and [green] attack dice it would roll.",
+      "fr": "Lorsque cette unité est attaquée par une unité non-élite, l'attaquant lance [bleu] à la place de tout dé d'attaque [rouge], [noir] et [vert] qu'il devrait lancer."
+    }
+  },
+  {
+    "id": 10,
+    "skill": {
+      "en": "First Strike",
+      "fr": "Premier Assaut"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit can attack or use a Special the turn it is deployed.",
+      "fr": "Cette unité peut attaquer ou utiliser une action Spéciale le tour où elle est déployée."
+    }
+  },
+  {
+    "id": 11,
+    "skill": {
+      "en": "Flight",
+      "fr": "Vol"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit may move through blocked hexes (but may not end its move on such a hex).",
+      "fr": "Cette unité peut traverser les hexagones bloqués (mais ne peut pas terminer son mouvement sur un tel hexagone)."
+    }
+  },
+  {
+    "id": 12,
+    "skill": {
+      "en": "Fury Aura (#)",
+      "fr": "Aura de Fureur (#)"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit deals 1 damage to an opponent within # hexes.<br/><i>Triggers if it would deal damage to an opponent. This unit uses Fury Aura on the weakest opponent possible.</i>",
+      "fr": "Cette unité inflige 1 dégât à un adversaire situé à # hexagones ou moins.<br/><i>Se déclenche si elle peut infliger des dégâts à un adversaire. Cette unité utilise Aura de Fureur sur l'adversaire le plus faible possible.</i>"
+    }
+  },
+  {
+    "id": 13,
+    "skill": {
+      "en": "Heave",
+      "fr": "Soulèvement"
+    },
+    "type": "Special",
+    "rule": {
+      "en": "This unit rolls its strongest attack die against an opponent within three hexes and deals the resulting damage to it.<br/><i>Triggers if a weaker opponent can be damaged with Heave than would be targeted with this unit's attack.</i>",
+      "fr": "Cette unité lance son dé d'attaque le plus fort contre un adversaire à trois hexagones ou moins et lui inflige les dégâts obtenus.<br/><i>Se déclenche si un adversaire plus faible peut être endommagé avec Soulèvement plutôt qu'avec l'attaque normale de cette unité.</i>"
+    }
+  },
+  {
+    "id": 14,
+    "skill": {
+      "en": "Hook",
+      "fr": "Crochet"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit chooses a unit exactly two hexes away and displaces it by one hex so it is adjacent to this unit.<br/><i>Triggers if this movement allows a rival unit to get an attack or Special when it otherwise would get neither.</i>",
+      "fr": "Cette unité choisit une unité située exactement à deux hexagones et la déplace d'un hexagone pour la rendre adjacente à cette unité.<br/><i>Se déclenche si ce mouvement permet à une unité rivale d'obtenir une attaque ou une action Spéciale alors qu'elle n'en aurait pas eu autrement.</i>"
+    }
+  },
+  {
+    "id": 15,
+    "skill": {
+      "en": "Hurl (#)",
+      "fr": "Lancer (#)"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit chooses an adjacent unit and displaces it to any available hex that is no more than the # hexes away from this unit.<br/><i>Triggers if this movement allows a rival unit to get an attack or Special when it otherwise would get neither.</i>",
+      "fr": "Cette unité choisit une unité adjacente et la déplace vers n'importe quel hexagone disponible situé à # hexagones maximum de cette unité.<br/><i>Se déclenche si ce mouvement permet à une unité rivale d'obtenir une attaque ou une action Spéciale alors qu'elle n'en aurait pas eu autrement.</i>"
+    }
+  },
+  {
+    "id": 16,
+    "skill": {
+      "en": "Inspire",
+      "fr": "Inspiration"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "Allies adjacent to this unit add [blue] to their Attacks.",
+      "fr": "Les alliés adjacents à cette unité ajoutent [bleu] à leurs Attaques."
+    }
+  },
+  {
+    "id": 17,
+    "skill": {
+      "en": "Intercept Blow",
+      "fr": "Interception"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When an ally adjacent to this unit is attacked, the damage dealt may be applied to this unit instead of the target unit.<br/><i>Triggers if it would prevent an ally from being defeated.</i>",
+      "fr": "Lorsqu'un allié adjacent à cette unité est attaqué, les dégâts infligés peuvent être appliqués à cette unité au lieu de l'unité ciblée.<br/><i>Se déclenche si cela empêcherait un allié d'être vaincu.</i>"
+    }
+  },
+  {
+    "id": 18,
+    "skill": {
+      "en": "Long Shot (#)",
+      "fr": "Tir Longue Portée (#)"
+    },
+    "type": "Special",
+    "rule": {
+      "en": "This unit rolls its weakest attack die against an opponent within # hexes and deals the resulting damage to it.<br/><i>Triggers if this unit cannot make an attack.</i>",
+      "fr": "Cette unité lance son dé d'attaque le plus faible contre un adversaire situé à # hexagones ou moins et lui inflige les dégâts obtenus.<br/><i>Se déclenche si cette unité ne peut pas faire d'attaque.</i>"
+    }
+  },
+  {
+    "id": 19,
+    "skill": {
+      "en": "Nimble",
+      "fr": "Agile"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "if this unit has HP equal to or above its Health, it ignores all attack damage dealt to it if the attacker rolls any misses on its attack dice.",
+      "fr": "Si cette unité a des PV égaux ou supérieurs à sa Santé, elle ignore tous les dégâts d'attaque qui lui sont infligés si l'attaquant obtient des échecs sur ses dés d'attaque."
+    }
+  },
+  {
+    "id": 20,
+    "skill": {
+      "en": "Perfect Strike",
+      "fr": "Frappe Parfaite"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When attacking, if this unit rolls hits on all of its attack dice, it doubles the total damage dealt by the attack.",
+      "fr": "Lors d'une attaque, si cette unité obtient des touches sur tous ses dés d'attaque, elle double le total des dégâts infligés par l'attaque."
+    }
+  },
+  {
+    "id": 21,
+    "skill": {
+      "en": "Quick Strike",
+      "fr": "Frappe Rapide"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When this unit is the target of an attack and the attacker is within this unit's Range, this unit deals its attacker 1 damage before the attack is resolved.",
+      "fr": "Lorsque cette unité est la cible d'une attaque et que l'attaquant est à portée de cette unité, celle-ci inflige 1 dégât à son attaquant avant la résolution de l'attaque."
+    }
+  },
+  {
+    "id": 22,
+    "skill": {
+      "en": "Regen (#)",
+      "fr": "Régénération (#)"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit heals for # HP.",
+      "fr": "Cette unité se soigne de # PV."
+    }
+  },
+  {
+    "id": 23,
+    "skill": {
+      "en": "Reposition",
+      "fr": "Repositionnement"
+    },
+    "type": "Special",
+    "rule": {
+      "en": "This unit may immediately move a number of hexes up to its Movement.<br/><i>Triggers if this unit cannot make an attack. This unit identifies a mark for this movement.</i>",
+      "fr": "Cette unité peut immédiatement se déplacer d'un nombre d'hexagones jusqu'à sa valeur de Mouvement.<br/><i>Se déclenche si cette unité ne peut pas faire d'attaque. Cette unité identifie une cible pour ce mouvement.</i>"
+    }
+  },
+  {
+    "id": 24,
+    "skill": {
+      "en": "Retaliate",
+      "fr": "Riposte"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "After this unit is dealt damage from an attack, if this unit is not defeated and its attacker is within its Range, this unit deals its attacker 1 damage.",
+      "fr": "Après que cette unité a subi des dégâts d'une attaque, si cette unité n'est pas vaincue et que son attaquant est à sa portée, cette unité inflige 1 dégât à son attaquant."
+    }
+  },
+  {
+    "id": 25,
+    "skill": {
+      "en": "Roaming",
+      "fr": "Errance"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "For this unit's movement, roll an arena die a number of times equal to its Movement. For each roll, this unit moves in the corresponding direction according to the compass. This unit does not move during its troop's Movement Step if already adjacent to an opponent, and stops moving if it becomes adjacent to one.",
+      "fr": "Pour le mouvement de cette unité, lancez un dé d'arène un nombre de fois égal à son Mouvement. Pour chaque lancer, cette unité se déplace dans la direction correspondante selon la boussole. Cette unité ne se déplace pas pendant l'étape de Mouvement de sa troupe si elle est déjà adjacente à un adversaire, et arrête de se déplacer si elle devient adjacente à un adversaire."
+    }
+  },
+  {
+    "id": 26,
+    "skill": {
+      "en": "Shove",
+      "fr": "Bousculade"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit displaces an adjacent unit one hex away from it and simultaneously moves onto the hex that unit vacated.<br/><i>Triggers if this movement allows a rival unit to get an attack or Special when it otherwise would get neither.</i>",
+      "fr": "Cette unité déplace une unité adjacente d'un hexagone et se déplace simultanément sur l'hexagone que cette unité a quitté.<br/><i>Se déclenche si ce mouvement permet à une unité rivale d'obtenir une attaque ou une action Spéciale alors qu'elle n'en aurait pas eu autrement.</i>"
+    }
+  },
+  {
+    "id": 27,
+    "skill": {
+      "en": "Swap",
+      "fr": "Échange"
+    },
+    "type": "Ability",
+    "rule": {
+      "en": "This unit may switch hexes with an adjacent unit.<br/><span>Triggers if this allows a rival unit to get an attack or Special when it otherwise would get neither.</span>",
+      "fr": "Cette unité peut échanger sa position avec une unité adjacente.<br/><span style=\"color: blue; font-style: italic;\" >Se déclenche si cela permet à une unité rivale d'obtenir une attaque ou une action Spéciale alors qu'elle n'en aurait pas eu autrement.</span>"
+    }
+  },
+  {
+    "id": 28,
+    "skill": {
+      "en": "Tactical",
+      "fr": "Tactique"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit can move during the turn it is deployed. This unit's troop can play tactics on non adjacent opponents (not including elite units).",
+      "fr": "Cette unité peut se déplacer pendant le tour où elle est déployée. La troupe de cette unité peut jouer des tactiques sur des adversaires non adjacents (à l'exception des unités élites)."
+    }
+  },
+  {
+    "id": 29,
+    "skill": {
+      "en": "Taunt",
+      "fr": "Provocation"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "When an opponent adjacent to this unit attacks, it must attack a unit that has Taunt.<br/><i>If a rival unit is adjacent to multiple opponents with Taunt, it attacks the strongest of those opponents.</i>",
+      "fr": "Lorsqu'un adversaire adjacent à cette unité attaque, il doit attaquer une unité qui possède Provocation.<br/><i>Si une unité rivale est adjacente à plusieurs adversaires avec Provocation, elle attaque le plus fort de ces adversaires.</i>"
+    }
+  },
+  {
+    "id": 30,
+    "skill": {
+      "en": "Undying",
+      "fr": "Immortel"
+    },
+    "type": "Innate",
+    "rule": {
+      "en": "This unit cannot be sacrificed and is always returned to your camp during the Cleanup Phase.",
+      "fr": "Cette unité ne peut pas être sacrifiée et retourne toujours dans votre camp pendant la Phase de Nettoyage."
+    }
+  },
+  {
+    "id": 31,
+    "skill": {
+      "en": "Whirlwind",
+      "fr": "Tourbillon"
+    },
+    "type": "Special",
+    "rule": {
+      "en": "This unit counts the number of opponents it is adjacent to and rolls its weakest attack die that many times. This unit deals damage to each adjacent opponent equal to its rolled hits.<br/><i>Triggers if this unit is adjacent to two or more opponents.</i>",
+      "fr": "Cette unité compte le nombre d'adversaires qui lui sont adjacents et lance son dé d'attaque le plus faible autant de fois. Cette unité inflige à chaque adversaire adjacent des dégâts égaux aux touches obtenues.<br/><i>Se déclenche si cette unité est adjacente à deux adversaires ou plus.</i>"
+    }
+  }
+]
