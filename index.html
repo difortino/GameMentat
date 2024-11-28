@@ -10,7 +10,7 @@
     <link id="app-css" rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link id="gamementat-styles" href="GameMentat.styles.css" rel="stylesheet" />
-    <link href="_framework/blazor.webassembly.js" rel="stylesheet" />
+    <link id="blazor-webassembly" href="_framework/blazor.webassembly.js" rel="stylesheet" />
 </head>
 
 <body>
@@ -34,13 +34,25 @@
 
 <script>
     const basePath = window.location.hostname === "difortino.github.io"
-        ? "/GameMentat/"
+        ? "https://difortino.github.io/GameMentat/"
         : "/";
     document.querySelector('base').setAttribute('href', basePath);
     console.log("***BasePath =>", basePath);
 
     // Update CSS paths
-    document.getElementById('bootstrap-css').setAttribute('href', basePath + 'css/bootstrap/bootstrap.min.css');
-    document.getElementById('app-css').setAttribute('href', basePath + 'css/app.css');
-    document.getElementById('gamementat-styles').setAttribute('href', basePath + 'GameMentat.styles.css');
+    const bootstrapCss = document.getElementById('bootstrap-css');
+    bootstrapCss.setAttribute('href', basePath + 'css/bootstrap/bootstrap.min.css');
+    console.log("***Updated href =>", bootstrapCss.getAttribute('href'));
+
+    const appCss = document.getElementById('app-css');
+    appCss.setAttribute('href', basePath + 'css/app.css');
+    console.log("***Updated href =>", appCss.getAttribute('href'));
+
+    const gamementatStyles = document.getElementById('gamementat-styles');
+    gamementatStyles.setAttribute('href', basePath + 'GameMentat.styles.css');
+    console.log("***Updated href =>", gamementatStyles.getAttribute('href'));
+
+    const blazorAssembly = document.getElementById('blazor-webassembly');
+    blazorAssembly.setAttribute('href', basePath + '_framework/blazor.webassembly.js');
+    console.log("***Updated href =>", blazorAssembly.getAttribute('href'));
 </script>
