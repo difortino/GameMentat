@@ -38,4 +38,9 @@
         : "/";
     document.querySelector('base').setAttribute('href', basePath);
     console.log("***BasePath =>", basePath);
+
+    // Update CSS paths
+    document.getElementById('bootstrap-css').setAttribute('href', basePath + 'css/bootstrap/bootstrap.min.css');
+    document.getElementById('app-css').setAttribute('href', basePath + 'css/app.css');
+    document.getElementById('gamementat-styles').setAttribute('href', basePath + 'GameMentat.styles.css');
 </script>
