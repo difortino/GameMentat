@@ -27,7 +27,7 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
+    <script id="blazor-script" src="_framework/blazor.webassembly.js"></script>
 </body>
 
 </html>
@@ -55,4 +55,8 @@
     const blazorAssembly = document.getElementById('blazor-webassembly');
     blazorAssembly.setAttribute('href', basePath + '_framework/blazor.webassembly.js');
     console.log("***Updated href =>", blazorAssembly.getAttribute('href'));
+
+    const blazorScript = document.getElementById('blazor-script');
+    blazorScript.setAttribute('src', basePath + '_framework/blazor.webassembly.js');
+    console.log("***Updated src =>", blazorScript.getAttribute('href'));
 </script>
