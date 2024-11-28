@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameMentat</title>
     <base href="/">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link id="bootstrap-css" rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link id="app-css" rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="GameMentat.styles.css" rel="stylesheet" />
+    <link id="gamementat-styles" href="GameMentat.styles.css" rel="stylesheet" />
     <link href="_framework/blazor.webassembly.js" rel="stylesheet" />
 </head>
 
@@ -34,7 +34,7 @@
 
 <script>
     const basePath = window.location.hostname === "difortino.github.io"
-        ? "https://difortino.github.io/GameMentat/"
+        ? "/GameMentat/"
         : "/";
     document.querySelector('base').setAttribute('href', basePath);
     console.log("***BasePath =>", basePath);
