@@ -1,0 +1,695 @@
+﻿[
+  {
+    "id": "1",
+    "skill": {
+      "en": "Aggravated",
+      "fr": "Exaspéré"
+    },
+    "description": {
+      "en": "If any Baddie has been defeated this battle, this unit gains +2 Atk.",
+      "fr": "Si un méchant a été vaincu lors de ce combat, cette unité gagne +2 Atk."
+    }
+  },
+  {
+    "id": "2",
+    "skill": {
+      "en": "Assault",
+      "fr": "Assaut"
+    },
+    "description": {
+      "en": "This unit's Atk Stat is equal to its current # HP.",
+      "fr": "L'attaque de cette unité est égale à ses PV actuels."
+    }
+  },
+  {
+    "id": "3",
+    "skill": {
+      "en": "Bleed",
+      "fr": "Saignement"
+    },
+    "description": {
+      "en": "Place Bleed Effect Die on target. Afected unit takes 1 True Dmg at the start of its turn (lasts entirerbattie]).",
+      "fr": "Placez le dé d'effet saignement sur la cible. L'unité affectée subit 1 dégât réel au début de son tour (dure tout le combat)."
+    }
+  },
+  {
+    "id": "4",
+    "skill": {
+      "en": "Blind Strike #",
+      "fr": "Frappe Aveugle #"
+    },
+    "description": {
+      "en": "At Start of Turn, this unit deals # Dmg to strongest adjacent unit.",
+      "fr": "Au début du tour, cette unité inflige # dégâts à l'unité adjacente la plus forte."
+    }
+  },
+  {
+    "id": "5",
+    "skill": {
+      "en": "Break",
+      "fr": "Briser"
+    },
+    "description": {
+      "en": "Any Atk Dice used to reduce this unit's HP must be Exhausted.",
+      "fr": "Tout dé d'attaque utilisé pour réduire les PV de cette unité doit être épuisé."
+    }
+  },
+  {
+    "id": "6",
+    "skill": {
+      "en": "Bribable",
+      "fr": "Corruptible"
+    },
+    "description": {
+      "en": "Once per an opposing unit's turn, a Gearloc may discard a loot to immediately take an extra turn for this unit [treat as an Aly).",
+      "fr": "Une fois par tour d'une unité ennemie, un Gearloc peut défausser un butin pour permettre à cette unité de jouer immédiatement un tour supplémentaire (considérez-la comme un allié)."
+    }
+  },
+  {
+    "id": "7",
+    "skill": {
+      "en": "Brimstone",
+      "fr": "Pierre de Soufre"
+    },
+    "description": {
+      "en": "Anytime an opposing unit moves to a postion adjacent to this unit, this unit immediately gains a Def 2 Die and, if possible, moves 1 position in the opposite direction of the opposing ünit's current position.",
+      "fr": "Chaque fois qu'une unité ennemie se déplace à une position adjacente à cette unité, celle-ci gagne immédiatement un dé de défense 2 et, si possible, se déplace d'une position dans la direction opposée à celle de l'unité ennemie."
+    }
+  },
+  {
+    "id": "8",
+    "skill": {
+      "en": "Callous",
+      "fr": "Insensible"
+    },
+    "description": {
+      "en": "This unit can only lose HP from Dmg dealt by Atk Dice (True Dmg and Fatigue are also ignored).",
+      "fr": "Cette unité ne peut perdre des PV que par des dégâts infligés par des dés d'attaque (les dégâts réels et la fatigue sont également ignorés)."
+    }
+  },
+  {
+    "id": "9",
+    "skill": {
+      "en": "Careless #",
+      "fr": "Négligent #"
+    },
+    "description": {
+      "en": "This unit takes # True Dng.",
+      "fr": "Cette unité subit # dégâts réels."
+    }
+  },
+  {
+    "id": "10",
+    "skill": {
+      "en": "Compound",
+      "fr": "Composé"
+    },
+    "description": {
+      "en": "This unit's Atk Stat is equal to the current round #(-5).",
+      "fr": "L'attaque de cette unité est égale au numéro de la manche actuelle (-5)."
+    }
+  },
+  {
+    "id": "11",
+    "skill": {
+      "en": "Confuse",
+      "fr": "Confusion"
+    },
+    "description": {
+      "en": "Place Confuse Effect Die on target - if this effect is already there, remove it. Unit's Atk Stat and Def Stat are swapped.",
+      "fr": "Placez le dé d'effet confusion sur la cible - si cet effet est déjà présent, retirez-le. Les statistiques d'attaque et de défense de l'unité sont échangées."
+    }
+  },
+  {
+    "id": "12",
+    "skill": {
+      "en": "Corrosive",
+      "fr": "Corrosif"
+    },
+    "description": {
+      "en": "At the end of this unit's turn, all remaining Def Dice in target's Active slots must be Exhausted immediately.",
+      "fr": "À la fin du tour de cette unité, tous les dés de défense restants dans les emplacements actifs de la cible doivent être immédiatement épuisés."
+    }
+  },
+  {
+    "id": "13",
+    "skill": {
+      "en": "Cunning",
+      "fr": "Rusé"
+    },
+    "description": {
+      "en": "Opposing units may only target this unit if it is the strongest Baddie on the Battle Mat.",
+      "fr": "Les unités ennemies ne peuvent cibler cette unité que si elle est le méchant le plus fort sur le plateau de combat."
+    }
+  },
+  {
+    "id": "14",
+    "skill": {
+      "en": "Daze",
+      "fr": "Étourdir"
+    },
+    "description": {
+      "en": "Place Daze Effect Die on target until the end of its next tum. Unit cannot move on its turn.",
+      "fr": "Placez le dé d'effet étourdissement sur la cible jusqu'à la fin de son prochain tour. L'unité ne peut pas se déplacer pendant son tour."
+    }
+  },
+  {
+    "id": "15",
+    "skill": {
+      "en": "Decoy #",
+      "fr": "Leurre #"
+    },
+    "description": {
+      "en": "When defeated, place a Decoy Effect Die on position with # HP. Party treats Decoy as opposing unit. While Decoy is on Battle Mat, Gearlocs may not attack Baddies. Decoy does not prolong a battle if Baddies are defeated.",
+      "fr": "Lorsqu'elle est vaincue, placez un dé d'effet leurre sur une position avec # PV. L'équipe considère le leurre comme une unité ennemie. Tant que le leurre est sur le plateau, les Gearlocs ne peuvent pas attaquer les méchants. Le leurre ne prolonge pas un combat si les méchants sont vaincus."
+    }
+  },
+  {
+    "id": "16",
+    "skill": {
+      "en": "Detonate #",
+      "fr": "Détonner #"
+    },
+    "description": {
+      "en": "At end of Movement Phase, if this unit is at less than full HP, it will defeat itself and deal # True Dmg to each adjacent unit.",
+      "fr": "À la fin de la phase de mouvement, si cette unité a moins de ses PV maximum, elle se détruit et inflige # dégâts réels à chaque unité adjacente."
+    }
+  },
+  {
+    "id": "17",
+    "skill": {
+      "en": "Disruption",
+      "fr": "Perturbation"
+    },
+    "description": {
+      "en": "Advance Round Counter Die to at the end of the round.",
+      "fr": "Avancez le dé compteur de manches à la fin de la manche."
+    }
+  },
+  {
+    "id": "18",
+    "skill": {
+      "en": "Dive",
+      "fr": "Plonger"
+    },
+    "description": {
+      "en": "If the Flight Effect Die is Active on this unit at the start of its turn, immediately place this unit adjacent to weakest available, opposing unit (and target it).",
+      "fr": "Si le dé d'effet vol est actif sur cette unité au début de son tour, placez immédiatement cette unité à côté de l'unité ennemie la plus faible disponible (et ciblez-la)."
+    }
+  },
+  {
+    "id": "19",
+    "skill": {
+      "en": "Dodge",
+      "fr": "Esquive"
+    },
+    "description": {
+      "en": "This unit's HP cannot be reduced with Atk Dice.",
+      "fr": "Les PV de cette unité ne peuvent pas être réduits avec des dés d'attaque."
+    }
+  },
+  {
+    "id": "20",
+    "skill": {
+      "en": "Engulf",
+      "fr": "Envelopper"
+    },
+    "description": {
+      "en": "All Dmg rolled by this unit also hits all adjacent units to target (including self) as well as triggers reaction Skills, if applicable.",
+      "fr": "Tous les dégâts infligés par cette unité touchent également toutes les unités adjacentes à la cible (y compris elle-même) et déclenchent des compétences de réaction, le cas échéant."
+    }
+  },
+  {
+    "id": "21",
+    "skill": {
+      "en": "Equipment",
+      "fr": "Équipement"
+    },
+    "description": {
+      "en": "When this unit enters the Battle Mat, roll a D6. Piece of Armor (1-2): Increase HP Stat by 2, Sharpening Stone (3-4): Increase Atk Stat by 1 (place Atk Die on Baddie to remember the buff), Eyeglass (5-6): Increase Ini Die by 2.",
+      "fr": "Lorsque cette unité entre sur le plateau de combat, lancez un D6. Pièce d'armure (1-2) : augmente les PV de 2, Pierre d'aiguisage (3-4) : augmente l'attaque de 1 (placez un dé d'attaque sur l'ennemi pour vous souvenir du bonus), Lunette (5-6) : augmente l'initiative de 2."
+    }
+  },
+  {
+    "id": "22",
+    "skill": {
+      "en": "Flame Soak #",
+      "fr": "Trempage de Flamme #"
+    },
+    "description": {
+      "en": "Remove # HP from the closest Gearloc on a Lava Position and place the HP under this unit (may exceed its HP Stat). If no Gearlocs are on Lava, remove the HP from the closest Baddie on Lava, if possible.",
+      "fr": "Retirez # PV du Gearloc le plus proche sur une position de lave et placez les PV sous cette unité (peut dépasser son Stat de PV). Si aucun Gearloc n'est sur la lave, retirez les PV du Méchant le plus proche sur la lave, si possible."
+    }
+  },
+  {
+    "id": "23",
+    "skill": {
+      "en": "Flee",
+      "fr": "Fuite"
+    },
+    "description": {
+      "en": "Remove this unit from Battle Mat at the end of Rounds 2 and 5 and place in Defeated Stack. If this happens, closest opposing unit with a loot must discard 1.",
+      "fr": "Retirez cette unité du tapis de bataille à la fin des manches 2 et 5 et placez-la dans la pile des vaincus. Si cela se produit, l'unité adverse la plus proche avec un butin doit en défausser un."
+    }
+  },
+  {
+    "id": "24",
+    "skill": {
+      "en": "Flight",
+      "fr": "Vol"
+    },
+    "description": {
+      "en": "At the end of this unit's turn, place a Flight Effect Die on it - if this effect is already there, remove it. While in Flight, this unit cannot be targeted (but can still be Dmged by non-targeting Skills and other effects).",
+      "fr": "À la fin du tour de cette unité, placez un dé d'effet Vol sur elle - si cet effet est déjà présent, retirez-le. Pendant le vol, cette unité ne peut pas être ciblée (mais peut toujours subir des dégâts d'aptitudes non ciblées et d'autres effets)."
+    }
+  },
+  {
+    "id": "25",
+    "skill": {
+      "en": "Frenzy #",
+      "fr": "Frénésie #"
+    },
+    "description": {
+      "en": "If at least # of this unit's Atk Dice hit (roll), roll # Atk Dice again and deal total Dmg of both rolls.",
+      "fr": "Si au moins # des dés d'attaque de cette unité touchent (lancé), lancez à nouveau # dés d'attaque et infligez le total des dégâts des deux lancers."
+    }
+  },
+  {
+    "id": "26",
+    "skill": {
+      "en": "Hardy",
+      "fr": "Résistant"
+    },
+    "description": {
+      "en": "Any turn this unit loses HP (including from True Dmg), total HP lost is reduced to 1.",
+      "fr": "À chaque tour où cette unité perd des PV (y compris des dégâts purs), le total des PV perdus est réduit à 1."
+    }
+  },
+  {
+    "id": "27",
+    "skill": {
+      "en": "Inspire #",
+      "fr": "Inspirer #"
+    },
+    "description": {
+      "en": "The next Baddie on the Ini Meter takes their turn immediately after this unit (move their Ini Die) and is granted # additional Atk Dice that turn.",
+      "fr": "Le prochain Méchant sur le compteur d'initiative joue immédiatement après cette unité (déplacez son dé d'initiative) et obtient # dés d'attaque supplémentaires pour ce tour."
+    }
+  },
+  {
+    "id": "28",
+    "skill": {
+      "en": "Intense #",
+      "fr": "Intense #"
+    },
+    "description": {
+      "en": "Target's Backup Plan loses # [bones] (remove leftmost [bones] first).",
+      "fr": "Le plan de secours de la cible perd # [os] (retirez d'abord les [os] les plus à gauche)."
+    }
+  },
+  {
+    "id": "29",
+    "skill": {
+      "en": "Lashback #",
+      "fr": "Contre-Attaque #"
+    },
+    "description": {
+      "en": "Any turn this unit loses HP from Dmg by an adjacent opposing unit, this unit will then deal # Dmg back, so long as it was not defeated.",
+      "fr": "À chaque tour où cette unité perd des PV à cause des dégâts d'une unité adverse adjacente, elle inflige ensuite # dégâts en retour, tant qu'elle n'est pas vaincue."
+    }
+  },
+  {
+    "id": "30",
+    "skill": {
+      "en": "Lava Flow",
+      "fr": "Flux de Lave"
+    },
+    "description": {
+      "en": "Any Rock position this unit occupies immediately becomes Lava.",
+      "fr": "Toute position Roche occupée par cette unité devient immédiatement de la Lave."
+    }
+  },
+  {
+    "id": "31",
+    "skill": {
+      "en": "Mischief #",
+      "fr": "Malice #"
+    },
+    "description": {
+      "en": "Remove # dice (player's choice) from target Gearloc's Active Slots (other units remove # Def Dice from their chip).",
+      "fr": "Retirez # dés (au choix du joueur) des emplacements actifs du Gearloc cible (les autres unités retirent # dés de défense de leur jeton)."
+    }
+  },
+  {
+    "id": "32",
+    "skill": {
+      "en": "Molten Bath #",
+      "fr": "Bain de Lave #"
+    },
+    "description": {
+      "en": "This unit heals for # HP at the start of its turn if its position is Lava and heals for # HP each time it moves onto a Lava position.",
+      "fr": "Cette unité récupère # PV au début de son tour si sa position est de la Lave et récupère # PV à chaque fois qu'elle se déplace sur une position de Lave."
+    }
+  },
+  {
+    "id": "33",
+    "skill": {
+      "en": "One Mind",
+      "fr": "Esprit Unique"
+    },
+    "description": {
+      "en": "On this unit's turn, all other Beast-Type Baddies roll 1 Atk Die against their target(s).",
+      "fr": "Au tour de cette unité, tous les autres Méchants de type Bête lancent 1 dé d'attaque contre leur(s) cible(s)."
+    }
+  },
+  {
+    "id": "34",
+    "skill": {
+      "en": "Poison #",
+      "fr": "Poison #"
+    },
+    "description": {
+      "en": "Set or reset a Poison Effect Die on target to #. Target takes True Dmg equal to the Effect Die # at the start of its turn. After applying Dmg, reduce Effect Die by 1.",
+      "fr": "Placez ou réinitialisez un dé d'effet Poison sur la cible à #. La cible subit des dégâts purs égaux au chiffre du dé d'effet au début de son tour. Après application des dégâts, réduisez le dé d'effet de 1."
+    }
+  },
+  {
+    "id": "35",
+    "skill": {
+      "en": "Pollute #",
+      "fr": "Polluer #"
+    },
+    "description": {
+      "en": "Place a # Poison Effect Die on all Gearlocs not on a Lava Position. See Poison # for details.",
+      "fr": "Placez un dé d'effet Poison # sur tous les Gearlocs qui ne sont pas sur une position de Lave. Voir Poison # pour plus de détails."
+    }
+  },
+  {
+    "id": "36",
+    "skill": {
+      "en": "Pull-In",
+      "fr": "Attirer"
+    },
+    "description": {
+      "en": "Target Party Member is placed in Krelln Starting Position adjacent to this unit, if possible.",
+      "fr": "Un membre de l'équipe cible est placé dans la position de départ de Krelln adjacente à cette unité, si possible."
+    }
+  },
+  {
+    "id": "37",
+    "skill": {
+      "en": "Rage #",
+      "fr": "Rage #"
+    },
+    "description": {
+      "en": "If this unit has less than full HP, it gains # additional Atk Dice.",
+      "fr": "Si cette unité a moins que ses PV maximum, elle gagne # dés d'attaque supplémentaires."
+    }
+  },
+  {
+    "id": "38",
+    "skill": {
+      "en": "Raiding",
+      "fr": "Raid"
+    },
+    "description": {
+      "en": "This unit gains 1 extra Atk Die for every other Orc-Type Baddie on Battle Mat.",
+      "fr": "Cette unité gagne 1 dé d'attaque supplémentaire pour chaque autre Méchant de type Orc sur le tapis de bataille."
+    }
+  },
+  {
+    "id": "39",
+    "skill": {
+      "en": "Randomize",
+      "fr": "Aléatoire"
+    },
+    "description": {
+      "en": "Draw a random Splice & Dice Tyrant Die not already in use. This Tyrant uses it as its own for this battle.",
+      "fr": "Tirez un dé Tyrant Splice & Dice au hasard qui n'est pas déjà utilisé. Ce Tyrant l'utilise comme le sien pour ce combat."
+    }
+  },
+  {
+    "id": "40",
+    "skill": {
+      "en": "Reach",
+      "fr": "Portée"
+    },
+    "description": {
+      "en": "At the start of this unit's turn, the closest opposing unit not already adjacent is placed on an available position adjacent to this unit, if possible. If an adjacent Lava position is available, the opposing unit must be placed there.",
+      "fr": "Au début du tour de cette unité, l'unité adverse la plus proche qui n'est pas déjà adjacente est placée sur une position adjacente disponible, si possible. Si une position de Lave adjacente est disponible, l'unité adverse doit y être placée."
+    }
+  },
+  {
+    "id": "41",
+    "skill": {
+      "en": "Recover",
+      "fr": "Récupérer"
+    },
+    "description": {
+      "en": "At the start of this unit's turn, it recovers HP equal to its Recover value.",
+      "fr": "Au début du tour de cette unité, elle récupère un nombre de PV égal à sa valeur de Récupération."
+    }
+  },
+  {
+    "id": "42",
+    "skill": {
+      "en": "Regenerate #",
+      "fr": "Régénérer #"
+    },
+    "description": {
+      "en": "At the start of this unit's turn, it regains # HP.",
+      "fr": "Au début du tour de cette unité, elle regagne # PV."
+    }
+  },
+  {
+    "id": "43",
+    "skill": {
+      "en": "Retaliate #",
+      "fr": "Représailles #"
+    },
+    "description": {
+      "en": "After this unit is hit by an Atk Dice roll, deal # Dmg back to the attacking unit.",
+      "fr": "Après que cette unité a été touchée par un lancer de dés d'attaque, infligez # dégâts à l'unité attaquante."
+    }
+  },
+  {
+    "id": "44",
+    "skill": {
+      "en": "Shove",
+      "fr": "Pousser"
+    },
+    "description": {
+      "en": "Any adjacent opposing units are moved one position away from this unit (if possible).",
+      "fr": "Toutes les unités adverses adjacentes sont déplacées d'une position loin de cette unité (si possible)."
+    }
+  },
+  {
+    "id": "45",
+    "skill": {
+      "en": "Signal #",
+      "fr": "Signal #"
+    },
+    "description": {
+      "en": "At the start of round #, a 1-Point Baddie is added to the bottom of the Ini Meter. Signal occurs once per Baddie.",
+      "fr": "Au début du round #, un Méchant de 1 point est ajouté au bas du compteur d'initiative. Signal se produit une fois par Méchant."
+    }
+  },
+  {
+    "id": "46",
+    "skill": {
+      "en": "Skillswap",
+      "fr": "Échange de Compétence"
+    },
+    "description": {
+      "en": "Select any skill from a defeated Tyrant, this unit uses that skill in place of this one for the rest of this battle.",
+      "fr": "Choisissez une compétence d'un Tyrant vaincu, cette unité utilise cette compétence à la place de celle-ci pour le reste du combat."
+    }
+  },
+  {
+    "id": "47",
+    "skill": {
+      "en": "Sneak Attack #",
+      "fr": "Attaque Furtive #"
+    },
+    "description": {
+      "en": "Deal # True Dmg to the closest Gearloc at the start of the battle. Sneak Attack occurs once per Baddie.",
+      "fr": "Infligez # dégâts purs au Gearloc le plus proche au début du combat. Attaque furtive se produit une fois par Méchant."
+    }
+  },
+  {
+    "id": "48",
+    "skill": {
+      "en": "Split",
+      "fr": "Division"
+    },
+    "description": {
+      "en": "When this unit is defeated, place 2 x 1-Point Baddies of the same type on this unit's position.",
+      "fr": "Lorsque cette unité est vaincue, placez 2 Méchants de 1 point du même type à la position de cette unité."
+    }
+  },
+  {
+    "id": "49",
+    "skill": {
+      "en": "Stasis",
+      "fr": "Stase"
+    },
+    "description": {
+      "en": "If not defeated before its first turn, this unit places a Stasis Effect Die on its target. Target loses its turn while die is active. Die is removed when this unit is defeated.",
+      "fr": "Si elle n'est pas vaincue avant son premier tour, cette unité place un dé d'effet Stase sur sa cible. La cible perd son tour tant que le dé est actif. Le dé est retiré lorsque cette unité est vaincue."
+    }
+  },
+  {
+    "id": "50",
+    "skill": {
+      "en": "Stoneskin #",
+      "fr": "Peau de Pierre #"
+    },
+    "description": {
+      "en": "Reduce Dmg by # for this unit from all Atk Dice rolls.",
+      "fr": "Réduisez les dégâts de # pour cette unité provenant de tous les lancers de dés d'attaque."
+    }
+  },
+  {
+    "id": "51",
+    "skill": {
+      "en": "Stun",
+      "fr": "Étourdir"
+    },
+    "description": {
+      "en": "This unit's target loses its next turn.",
+      "fr": "La cible de cette unité perd son prochain tour."
+    }
+  },
+  {
+    "id": "52",
+    "skill": {
+      "en": "Thick Skin #",
+      "fr": "Peau Épaisse #"
+    },
+    "description": {
+      "en": "Reduce Dmg by # for this unit from all Dmg sources.",
+      "fr": "Réduisez les dégâts de # pour cette unité provenant de toutes les sources de dégâts."
+    }
+  },
+  {
+    "id": "53",
+    "skill": {
+      "en": "Tough",
+      "fr": "Tenace"
+    },
+    "description": {
+      "en": "This unit only takes 1 Dmg from any Attack.",
+      "fr": "Cette unité ne subit qu'1 dégât par attaque."
+    }
+  },
+  {
+    "id": "54",
+    "skill": {
+      "en": "Weaken #",
+      "fr": "Affaiblir #"
+    },
+    "description": {
+      "en": "Place or reset a Weaken Effect Die to # on target. At the start of its turn, target rolls # fewer Atk Dice. After applying, reduce Effect Die by 1.",
+      "fr": "Placez ou réinitialisez un dé d'effet Affaiblir à # sur la cible. Au début de son tour, la cible lance # dés d'attaque en moins. Après application, réduisez le dé d'effet de 1."
+    }
+  },
+  {
+    "id": "55",
+    "skill": {
+      "en": "Wild",
+      "fr": "Sauvage"
+    },
+    "description": {
+      "en": "Roll a 6-sided die at the start of each turn. Result determines the behavior of this unit that turn. (1: skip turn, 2-5: Atk, 6: Heal self).",
+      "fr": "Lancez un dé à 6 faces au début de chaque tour. Le résultat détermine le comportement de cette unité pour ce tour. (1 : passe son tour, 2-5 : attaque, 6 : se soigne)."
+    }
+  },
+  {
+    "id": "56",
+    "skill": {
+      "en": "Terrify",
+      "fr": "Terrifier"
+    },
+    "description": {
+      "en": "After this unit is attacked, place a Terrify Effect Die on the attacking unit until the end of its next turn. If a unit has a Terrify Effect Die on it at the start of its next turn, it may not target any units with Skill: Terrify.",
+      "fr": "Après que cette unité ait été attaquée, placez un dé d'effet Terrifiant sur l'unité attaquante jusqu'à la fin de son prochain tour. Si une unité a un dé d'effet Terrifiant au début de son prochain tour, elle ne peut pas cibler des unités ayant la compétence : Terrifier."
+    }
+  },
+  {
+    "id": "57",
+    "skill": {
+      "en": "Thick Skin #",
+      "fr": "Peau Épaisse #"
+    },
+    "description": {
+      "en": "Ignore the first # Dmg this unit would take this turn (does not ignore True Dmg)!",
+      "fr": "Ignore les # premiers dégâts que cette unité subirait ce tour (n'ignore pas les dégâts véritables)!"
+    }
+  },
+  {
+    "id": "58",
+    "skill": {
+      "en": "Trap",
+      "fr": "Piège"
+    },
+    "description": {
+      "en": "No-Water ([water]) Encounters only. Gearloc of party's choice rolls a D6 when entering the Battle Mat. Gas Trap (1-2): Roll Poison Effect Die and apply results. Electrical Trap (3-4): Cannot use Skills during Round 1 (use Disable Effect Die as a reminder). Barbed Trap (5-6): Move down 2 spots on Ini Mete.",
+      "fr": "Rencontres sans eau ([eau]) uniquement. Un Gearloc au choix du groupe lance un D6 en entrant sur le tapis de bataille. Piège à gaz (1-2) : Lancez le dé d'effet Poison et appliquez les résultats. Piège électrique (3-4) : Ne peut pas utiliser de compétences pendant le premier round (utilisez un dé d'effet Désactiver comme rappel). Piège barbelé (5-6) : Reculez de 2 positions sur l'Ini Mete."
+    }
+  },
+  {
+    "id": "59",
+    "skill": {
+      "en": "Treasure",
+      "fr": "Trésor"
+    },
+    "description": {
+      "en": "When this unit is defeated, place Loot Die on its position (if you don't have Loot Die, instead draw a Loot).",
+      "fr": "Lorsque cette unité est vaincue, placez un dé de butin à sa position (si vous n'avez pas de dé de butin, piochez un butin à la place)."
+    }
+  },
+  {
+    "id": "60",
+    "skill": {
+      "en": "Trickery",
+      "fr": "Ruse"
+    },
+    "description": {
+      "en": "When this unit enters Battle Mat, immediately add other Baddie: Goblin Guru (2OPt, from Active Stacks only) to top of BQ. When 2 Goblin Gurus are on the Battle Mat, Dmg dealt to one unit is only applied to the other.",
+      "fr": "Lorsque cette unité entre sur le tapis de bataille, ajoutez immédiatement un autre Méchant : Goblin Guru (2OPt, uniquement à partir des piles actives) au sommet de la BQ. Lorsque 2 Goblin Gurus sont sur le tapis de bataille, les dégâts infligés à une unité sont uniquement appliqués à l'autre."
+    }
+  },
+  {
+    "id": "61",
+    "skill": {
+      "en": "Undead",
+      "fr": "Mort-Vivant"
+    },
+    "description": {
+      "en": "The first time this unit is defeated, place it back on top of BO. When it reenters play, it starts with only 2 HP, and its Atk Stat is doubled.",
+      "fr": "La première fois que cette unité est vaincue, placez-la de nouveau au sommet de la BO. Lorsqu'elle revient en jeu, elle commence avec seulement 2 PV, et sa statistique d'attaque est doublée."
+    }
+  },
+  {
+    "id": "62",
+    "skill": {
+      "en": "Untargetable",
+      "fr": "Intouchable"
+    },
+    "description": {
+      "en": "Place Untargetable Effect Die on this unit. Until the start of this unit's next turn, it cannot be targeted by opposing units (but can still be Dmged by non-targeting Skills and other effects).",
+      "fr": "Placez un dé d'effet Intouchable sur cette unité. Jusqu'au début du prochain tour de cette unité, elle ne peut pas être ciblée par des unités adverses (mais peut toujours subir des dégâts provenant de compétences non ciblées et d'autres effets)."
+    }
+  },
+  {
+    "id": "63",
+    "skill": {
+      "en": "Weaken #",
+      "fr": "Affaiblir #"
+    },
+    "description": {
+      "en": "Place a # Weaken Effect Die on target. Gearloc's Dex is reduced by # next turn (other units reduce Atk Stat by #).",
+      "fr": "Placez un dé d'effet Affaiblir # sur la cible. La Dextérité du Gearloc est réduite de # au prochain tour (les autres unités réduisent leur statistique d'attaque de #)."
+    }
+  }
+]

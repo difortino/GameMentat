@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameMentat</title>
+    <!--<base href="/GameMentat">-->
+    <base href="https://difortino.github.io/GameMentat/" />.
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="GameMentat.styles.css" rel="stylesheet" />
+    <link href="_framework/blazor.webassembly.js" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        ERROR!
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>
+
+<script>
+    const basePath = window.location.hostname === "difortino.github.io"
+        ? "/GameMentat/"
+        : "/";
+    document.querySelector('base').setAttribute('href', basePath);
+    console.log("***BasePath =>", basePath);
+</script>
