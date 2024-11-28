@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "GameMentat",
   "resources": {
-    "hash": "sha256-nzMBrGYw3F6Ip+oZPTYg9xP0bVfFXWMyJrr6c4iy5Gc=",
+    "hash": "sha256-pLN7VtLLmyceU376Z9Af2sMNS8bsiL8y4iv/aGbl1aQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.2p4u6mar9c.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "GameMentat.wasm": "sha256-tRqx2FWadWyEI5MiQhIkAXHI+5XXoG/O1OG39BuCizE=",
+      "GameMentat.wasm": "sha256-f4qEouNWd8i7UENPd5G/Z7Xl5gs8hDCsoGl620/VPqs=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-CMsbc1z3Cn1XnDG47eCY1oxkSeQmtd3LztOLaW5ijJg=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-zHTkqN8duE5S+fZQQKVnNFumqyg6d6BMIzGYRqnL7F4=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-3eOyO4ym/P4OFyhNf/04qtnuLbZdmqrUkiR7WpF8dh0=",
