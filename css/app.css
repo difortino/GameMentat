@@ -101,3 +101,78 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+/* Personnalisation des titres */
+.card-title {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+/* Style pour les résultats */
+.text-success {
+    font-weight: bold;
+    color: #28a745 !important; /* Vert Bootstrap */
+}
+
+/* Historique des résultats */
+.list-group-item {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Animation de roulement du dé */
+@keyframes rollDice {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dice-rolling {
+    animation: rollDice 1s ease-in-out;
+}
+
+.result-display {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.result-display div {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+.result-display div.dice-rolling {
+    transform: scale(0);
+    opacity: 0;
+}

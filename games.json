@@ -7,7 +7,7 @@
     "links": [
       {
         "label": "Site officiel",
-        "type": "url-externe",
+        "type": "url",
         "value": "https://chiptheorygames.com/hoplomachus/"
       },
       {
@@ -25,7 +25,7 @@
     "links": [
       {
         "label": "Site officiel",
-        "type": "url-externe",
+        "type": "url",
         "value": "https://chiptheorygames.com/too-many-bones/"
       },
       {
@@ -43,17 +43,17 @@
     "links": [
       {
         "label": "Site officiel",
-        "type": "url-externe",
+        "type": "url",
         "value": "https://lookout-spiele.de/en/games/forrestshuffle.html"
       },
       {
         "label": "Automa",
-        "type": "url-externe",
+        "type": "url",
         "value": "https://glaures.github.io/forestshuffle-automa/"
       },
       {
         "label": "Scoring app",
-        "type": "url-externe",
+        "type": "url",
         "value": "https://forestshuffle.app/?distributed=true"
       }
     ]
