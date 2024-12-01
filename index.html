@@ -60,4 +60,10 @@
     const blazorScript = document.getElementById('blazor-script');
     blazorScript.setAttribute('src', basePath + '_framework/blazor.webassembly.js');
     console.log("***Updated src =>", blazorScript.getAttribute('href'));
+
+    window.localStorageHelper = {
+        getPlayers: function () {
+            return JSON.parse(localStorage.getItem('players') || '[]');
+        }
+    };
 </script>
