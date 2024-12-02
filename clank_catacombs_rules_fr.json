@@ -1,0 +1,85 @@
+{
+  "name": "Clank! Catacombs",
+  "goal": "Explorer les catacombes pour récupérer des artefacts, accumuler des richesses et sortir vivant avant que le dragon n'élimine les joueurs.",
+  "setup": [
+    {
+      "name": "Tuiles de donjon",
+      "description": "Mélangez les tuiles et placez la tuile de départ au centre. Les autres tuiles forment une pile face cachée."
+    },
+    {
+      "name": "Objets et artefacts",
+      "description": "Placez les artefacts dans les espaces prévus une fois révélés. Disposez les objets spéciaux, les clés, les potions, etc."
+    },
+    {
+      "name": "Marché des Cartes",
+      "description": "Mélangez le marché et placez-le au centre"
+    },
+    {
+      "name": "Cartes pour chaque joueur",
+      "description": "Chaque joueur commence avec un deck de base (10 cartes)."
+    },
+    {
+      "name": "Dragon",
+      "description": "Placez le marqueur de dragon sur la piste correspondante."
+    }
+  ],
+  "gameplay": {
+    "phases": [
+      {
+        "name": "Piochez votre main",
+        "description": "Piochez 5 cartes de votre deck."
+      },
+      {
+        "name": "Utilisez vos cartes",
+        "description": "Utilisez les compétences, épées, bottes ou effets spéciaux des cartes."
+      },
+      {
+        "name": "Déplacez-vous et explorez",
+        "description": "Déplacez votre pion et révélez de nouvelles tuiles si nécessaire."
+      },
+      {
+        "name": "Collectez et combattez",
+        "description": "Récupérez des objets, artefacts ou trésors, et affrontez les monstres si besoin."
+      },
+      {
+        "name": "Terminez votre tour",
+        "description": "Défaussez les cartes jouées et remplacez les cartes du marché si nécessaire."
+      }
+    ]
+  },
+  "specific_rules": [
+      {
+        "name": "Dragon",
+        "conditions": "Lorsqu'une carte 'Dragon' est révélée dans le marché.",
+        "resolutions": [
+          "Mélangez les cubes Clank.",
+          "Tirez un certain nombre de cubes en fonction de la position du dragon sur la piste.",
+          "Les cubes tirés infligent des dégâts aux joueurs concernés.",
+          "Un joueur éliminé s'il accumule trop de dégâts."
+        ]
+      },
+      {
+        "name": "Fantôme",
+        "conditions": "Un fantôme se trouve sur la nouvelle tuile révélée.",
+        "resolutions": [
+          "Ajouter un cube blanc dans le sac Dragon"
+        ]
+      }
+    ],
+    "end_game": {
+      "conditions": [
+        "Tous les joueurs sont sortis ou éliminés.",
+        "Un joueur atteint la surface avec un artefact.",
+        "Si le joueur se trouve dans la section profonde du donjon (tuiles bleues), il est éliminé",
+        "Si le joueur n'a plus de points de vie, il est éliminé"
+      ],
+      "scoring": [
+        "Points des artefacts.",
+        "Points des objets majeurs.",
+        "Points des secrets mineurs ou majeurs.",
+        "Points des cartes de compétences",
+        "Bonus de sortie, si applicable (20 points)."
+      ],
+      "victory": "Le joueur avec le plus de points de victoire gagne."
+    }
+  }

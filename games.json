@@ -57,5 +57,23 @@
         "value": "https://forestshuffle.app/?distributed=true"
       }
     ]
+  },
+  {
+    "id": "4",
+    "nom": "Clank! Catacombes",
+    "description": "",
+    "company": "Dire Wolf",
+    "links": [
+      {
+        "label": "Site officiel",
+        "type": "url",
+        "value": "https://www.direwolfdigital.com/clank-catacombs/"
+      },
+      {
+        "label": "Règles",
+        "type": "url",
+        "value": "/ClankCatacombs"
+      }
+    ]
   }
 ]
