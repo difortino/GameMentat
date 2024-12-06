@@ -4,23 +4,37 @@
   "setup": [
     {
       "name": "Tuiles de donjon",
-      "description": "Mélangez les tuiles et placez la tuile de départ au centre. Les autres tuiles forment une pile face cachée."
+      "description": [
+        "Séparer les tuiles de donjon mauves (surface) et bleues (profondeur) et mélanger 2 piles tuiles séparément face cachée",
+        "Prendre 4 tuiles mauves au hasard et les déposer sur les tuiles bleues"
+      ]
     },
     {
       "name": "Objets et artefacts",
-      "description": "Placez les artefacts dans les espaces prévus une fois révélés. Disposez les objets spéciaux, les clés, les potions, etc."
+      "description": [
+        "Placez les artefacts dans les espaces prévus une fois révélés.",
+        "Disposez les objets spéciaux, les clés, les potions, etc."
+      ]
     },
     {
       "name": "Marché des Cartes",
-      "description": "Mélangez le marché et placez-le au centre"
+      "description": [
+        "Mélangez le marché et placez-le au centre:",
+        "  <b>Réserve</b>: 1 pile avec les mercenaires, 1 avec les gobelins et une avec le livre secret.",
+        "  <b>Donjon</b>: Mélanger et piger 6 cartes au hasard"
+      ]
     },
     {
       "name": "Cartes pour chaque joueur",
-      "description": "Chaque joueur commence avec un deck de base (10 cartes)."
+      "description": [
+        "Chaque joueur commence avec un deck avec les 10 cartes de base."
+      ]
     },
     {
       "name": "Dragon",
-      "description": "Placez le marqueur de dragon sur la piste correspondante."
+      "description": [
+        "Placez le marqueur de dragon sur la piste correspondant au nombre de joueur."
+      ]
     }
   ],
   "gameplay": {
@@ -74,11 +88,15 @@
         "Si le joueur n'a plus de points de vie, il est éliminé"
       ],
       "scoring": [
-        "Points des artefacts.",
-        "Points des objets majeurs.",
-        "Points des secrets mineurs ou majeurs.",
-        "Points des cartes de compétences",
-        "Bonus de sortie, si applicable (20 points)."
+        "Artefacts.",
+        "Objets du marché.",
+        "Secrets mineurs.",
+        "Secrets majeurs.",
+        "Prisonniers.",
+        "Idoles du singe.",
+        "Jetons maîtrise.",
+        "Bonus de sortie, si applicable (20 points).",
+        "Points des cartes de compétences"
       ],
       "victory": "Le joueur avec le plus de points de victoire gagne."
     }
